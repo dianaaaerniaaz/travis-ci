@@ -1,0 +1,25 @@
+{
+  "name": "task8apidocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.17.1",
+    "graphql": "^15.8.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "webdriver-manager": "^12.1.9"
+  }
+}
